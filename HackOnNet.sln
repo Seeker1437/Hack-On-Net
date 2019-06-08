@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackOnNet", "HackOnNet\HackOnNet.csproj", "{244411E2-786C-4B04-8F1D-E8A1DEB4AD6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackOnNet", "Legacy\HackOnNet\HackOnNet.csproj", "{244411E2-786C-4B04-8F1D-E8A1DEB4AD6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackLinks Server", "HackLinks Server\HackLinks Server.csproj", "{292E7114-1D19-472A-BE90-56A338294DF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackLinks Server", "Legacy\HackLinks Server\HackLinks Server.csproj", "{292E7114-1D19-472A-BE90-56A338294DF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackLinksCommon", "HackLinksCommon\HackLinksCommon.csproj", "{15BA833D-405C-4997-88A5-286736E300BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackLinksCommon", "Legacy\HackLinksCommon\HackLinksCommon.csproj", "{15BA833D-405C-4997-88A5-286736E300BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Legacy", "Legacy", "{2CA6F535-3F3A-45C5-A0FB-CD86298DFC14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{244411E2-786C-4B04-8F1D-E8A1DEB4AD6B} = {2CA6F535-3F3A-45C5-A0FB-CD86298DFC14}
+		{292E7114-1D19-472A-BE90-56A338294DF5} = {2CA6F535-3F3A-45C5-A0FB-CD86298DFC14}
+		{15BA833D-405C-4997-88A5-286736E300BE} = {2CA6F535-3F3A-45C5-A0FB-CD86298DFC14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A43E39E6-0CFE-473F-A7EB-D8444D14AF05}
